@@ -1,0 +1,120 @@
+/* Estilo general Star Wars Blog */
+body {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid #ffc107;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/* Títulos principales */
+h2 {
+  font-weight: bold;
+  color: #ffc107;
+  /* amarillo Star Wars */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+/* Cards */
+.card {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.4);
+}
+
+.card-title {
+  color: #ffc107;
+}
+
+/* Botones personalizados */
+.btn-primary {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+  color: #000;
+}
+
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+/* Dropdown de favoritos */
+.dropdown-menu {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+}
+
+.dropdown-item {
+  color: #f5f5f5;
+}
+
+.dropdown-item:hover {
+  background-color: #333;
+  color: #ffc107;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #ffc107;
+  font-size: 0.9rem;
+}
+
+/* Scroll horizontal para listas */
+.d-flex.overflow-auto {
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+/* Spinner personalizado */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Sección de detalles */
+.lead {
+  color: #ddd;
+}
